@@ -1,0 +1,71 @@
+h1 {
+    font-size: 80px;
+    color: #1e293b;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #475569;
+}
+
+button {
+    padding: 12px 30px;
+    border: none;
+    background: #6366f1;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #4f46e5;
+}
+
+.text h2 {
+    font-size: 36px;
+    color: #1e293b;
+}
+
+.text p {
+    color: #64748b;
+}
+
+.card {
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    transition: 0.4s;
+    position: relative;
+    overflow: hidden;
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.card h3 {
+    position: relative;
+    z-index: 2;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.banner h2 {
+    font-size: 28px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+}
